@@ -12,7 +12,7 @@ source:
   sha256: 8e2a49c6d5562c8e5fb05b032a48f11afcf20fd244d42c956294d3b4bbdd6c91
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   # Python bindings (maturin/PyO3), published on PyPI as "rustypot".

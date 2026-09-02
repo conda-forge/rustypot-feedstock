@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.6.0"
+  version: "1.7.0"
 
 recipe:
   name: rustypot
@@ -9,7 +9,7 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/r/rustypot/rustypot-${{ version }}.tar.gz
-  sha256: 4b08952257d4f3261a0a0a767cbd8ed23769b6843064cb28ea40e77b8e86b5d6
+  sha256: d44dcc6e5772e4fc893ba8de5d3d2ef305470ffd01480078ca516a3a033c80a5
 
 build:
   number: 0

@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.7.0"
+  version: "1.8.0"
 
 recipe:
   name: rustypot
@@ -9,10 +9,10 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/r/rustypot/rustypot-${{ version }}.tar.gz
-  sha256: d44dcc6e5772e4fc893ba8de5d3d2ef305470ffd01480078ca516a3a033c80a5
+  sha256: 5afb64ac06c266895b1d7857c11ffd803f73ed06103754148be579c0218c8076
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   # Python bindings (maturin/PyO3), published on PyPI as "rustypot".
